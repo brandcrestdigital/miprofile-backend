@@ -1,0 +1,62 @@
+# Environment files — never upload secrets
+.env
+.env_*
+!.env.example
+
+# Laravel dependencies
+/vendor/
+/node_modules/
+
+# Logs and generated files
+*.log
+.DS_Store
+*.zip
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+
+# IDE and operating system files
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# Other sensitive or temporary files
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+
+*.log
+.DS_Store
+*.zip
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+/digital_card_db (1).sql
