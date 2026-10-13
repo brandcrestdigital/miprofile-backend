@@ -60,3 +60,5 @@ Homestead.json
 Homestead.yaml
 Thumbs.db
 /digital_card_db (1).sql
+# APK build files
+/public/apk/
